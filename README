@@ -1,3 +1,6 @@
 This program is W32/Waledac Cleaning Program written by Perl.
 
 License is Public Domain Software 
+
+Usage:
+ find -type f -name 'TARGETFILELIST' | xargs perl waledac-cleaner.pl
